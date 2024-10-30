@@ -3,9 +3,9 @@ Demo using OKE with MySQL
 
 
 
-INSERT INTO empleados (nombre, puesto, salario) VALUES
-('Juan', 'Ingeniero', 70000),
-('Ana', 'Gerente', 85000);
+
+
+create database empleados;
 
 CREATE TABLE empleados (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -13,3 +13,7 @@ CREATE TABLE empleados (
     puesto VARCHAR(50),
     salario DECIMAL(10, 2)
 );
+
+INSERT INTO empleados (nombre, puesto, salario) VALUES
+('Juan', 'Ingeniero', 70000),
+('Ana', 'Gerente', 85000);
