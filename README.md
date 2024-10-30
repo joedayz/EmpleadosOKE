@@ -7,6 +7,8 @@ Demo using OKE with MySQL
 
 create database empleados;
 
+use empleados;
+
 CREATE TABLE empleados (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50),
